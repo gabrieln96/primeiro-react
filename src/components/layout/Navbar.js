@@ -9,7 +9,7 @@ import logo from '../../img/logo.png'
 function Navbar () {
  
     return(
-      <nav class={styles.navbar}>
+      <nav className={styles.navbar}>
         <Container>
         <Link to="./">
             <img class={styles.logo} src={logo} alt="Gabst"/>
