@@ -1,22 +1,22 @@
 {
   "projects": [
     {
-      "name": "teste do teste",
-      "budget": "6000",
+      "name": "projeto",
+      "budget": "10000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
       "id": 1
     },
     {
-      "name": "teste do teste",
-      "budget": "6000",
+      "name": "projeto",
+      "budget": "10000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
