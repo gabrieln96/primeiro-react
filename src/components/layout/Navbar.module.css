@@ -10,7 +10,7 @@
     max-height:50px;
     width: auto;
     height: auto;
-    background-color: #51557E;
+    background-color: #5837D0;
 }
 
 .list {
@@ -30,5 +30,5 @@
 }
 
 .item a:hover {
-    color: #51557E;
+    color: #5837D0;
 }
