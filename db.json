@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "teste",
-      "Valor total": "11111",
+      "name": "teste do teste",
+      "budget": "6000",
       "category": {
         "id": "1",
         "name": "Infra"
@@ -12,8 +12,8 @@
       "id": 1
     },
     {
-      "name": "teste",
-      "Valor total": "11111",
+      "name": "teste do teste",
+      "budget": "6000",
       "category": {
         "id": "1",
         "name": "Infra"
@@ -21,39 +21,6 @@
       "cost": 0,
       "services": [],
       "id": 2
-    },
-    {
-      "name": "teste 3",
-      "Valor total": "2555",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "Teste de cor",
-      "Valor total": "5000",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "Teste de cor",
-      "Valor total": "5000",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
     }
   ],
   "categories": [

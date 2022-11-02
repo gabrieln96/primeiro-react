@@ -58,10 +58,10 @@ function handleCategory(e) {
             <Input 
                 type="number" 
                 text="Orçamento do projeto" 
-                name="Valor total" 
+                name="budget" 
                 placeholder="Insira o orçamento total"
                 handleOnChange={handleChange}
-                value={project.budget}
+                value={project.budget ? project.budget: ''}
                 />
            <Select 
                 nem="category_id" 
