@@ -8,8 +8,22 @@
         "name": "Desenvolvimento"
       },
       "cost": 0,
-      "services": [],
-      "id": 1
+      "services": [
+        {
+          "name": "asdasd",
+          "cost": "122",
+          "description": "teste",
+          "id": "3750e1e7-7fa6-4e76-a34b-940f4fdc4b2f"
+        },
+        {
+          "name": "asdasd",
+          "cost": "122",
+          "description": "teste",
+          "id": "3750e1e7-7fa6-4e76-a34b-940f4fdc4b2f"
+        }
+      ],
+      "id": 1,
+      "cest": 122
     },
     {
       "name": "projeto",
