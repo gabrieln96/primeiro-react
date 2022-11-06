@@ -43,21 +43,8 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [
-        {
-          "name": "dev php",
-          "cost": "5",
-          "description": "comida",
-          "id": "97d6ce71-151d-495c-b87a-4edb2030c176"
-        },
-        {
-          "name": "teste",
-          "cost": "2",
-          "description": "teste",
-          "id": "a73a0374-cf61-4eab-bbf1-3a2656f79295"
-        }
-      ],
+      "cost": -7,
+      "services": [],
       "id": 3,
       "cest": 2
     },
