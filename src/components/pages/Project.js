@@ -16,6 +16,7 @@ function Project (){
 
     const [project, setProject] = useState ([])
     const [showProjectForm, setShowProjectForm] = useState(false)
+    const [showServiceForm, setShowServiceForm] = useState(false)
     const [message, setMessage] = useState ()
     const [type, setType] = useState ()
 
@@ -36,6 +37,7 @@ function Project (){
         }, [id])
 
 function editPost (project) {
+        setMessage('')
     // budget validation
 
     if(project.budget < project.cost){
@@ -65,11 +67,15 @@ function toggleProjectForm () {
     setShowProjectForm(!showProjectForm)
 }
 
+function toggleServiceForm () {
+    setShowServiceForm(!showServiceForm)
+}
+
 
     return ( <>
     {project.name ? (
     <div className={styles.project_details}>
-    <Container customClasse="column">
+    <Container customClass="column">
         {message && <Message type={type} msg={message}/>}
         <div className={styles.details_container}>
             <h1>Projeto: {project.name}</h1>
@@ -92,11 +98,25 @@ function toggleProjectForm () {
                 <div className={styles.project_info}>
                     <ProjectForm handleSubmit={editPost} 
                     btnText="Concluir Edição" 
-                    projectData={project}/>
+                    projectData={project}
+                    />
                 </div>
             )}
         </div>
-    </Container>
+        <div className={styles.service_form_container}>
+                <h2>Adicione um serviço:</h2>
+                <button className={styles.btn} onClick={toggleServiceForm}>
+                    {!showServiceForm ? 'Adicionar serviço' : 'Fechar'}
+                </button>
+                <div className={styles.project_info}>
+                    {showServiceForm && <div>Formulário do serviço</div>}
+                </div>
+        </div>
+        <h2>Serviços</h2>
+        <Container customClass="start">
+            <p>Itens do serviço</p>
+        </Container>
+        </Container>
     </div> 
     ) : ( <Loading/>
     )}
